@@ -1,0 +1,22 @@
+{
+	"description": "The codeIgniter framework core",
+	"name": "kernelstudio/codeigniter-core",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"irc": "irc://irc.freenode.net/codeigniter",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"php": ">=5.2.4"
+	},
+	"autoload": {
+        "files": [ "core/CodeIgniter.php" ]
+    },
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*"
+	}
+}
